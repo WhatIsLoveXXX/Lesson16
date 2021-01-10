@@ -1,7 +1,7 @@
 .right-page {
   background: url(../../images/rightpage-bg.png);
   min-height: 100vh;
-  border-bottom: 135px solid #ff4f00;
+  border-bottom: 135px solid $link-color;
   width: 100%;
   position: relative;
 
@@ -38,7 +38,7 @@
     min-height: inherit;
     min-width: 825px;
     max-width: 840px;
-    border-bottom: 155px solid #ff4f00;
+    border-bottom: 155px solid $link-color;
   }
 
   &-inner {
@@ -102,7 +102,7 @@
     margin-bottom: 18px;
 
     span {
-      color: #ff4f00;
+      color: $link-color;
     }
   }
 
@@ -180,7 +180,7 @@
       color: #fff;
       font-weight: 700;
       background: rgba(255, 79, 0, 0.1);
-      border: 3px solid #ff4f00;
+      border: 3px solid $link-color;
       display: flex;
       max-width: 250px;
       justify-content: center;
